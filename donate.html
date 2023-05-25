@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="icon" type="img/favico" href="./img/favico/logo.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>EKATERINBURG Project | Криминальная Россия</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+			<div class="header__container">
+				<a href="" class="header_logo"><img src="./img/logo.svg" alt=""></a>
+				<nav class="header__menu">
+					<ul class="menu__list">
+						<li class="menu_item"><a href="./index.html" class="menu_link">Главная</a></li>
+						<li class="menu_item"><a href="" class="menu_link">Форум</a></li>
+						<li class="menu_item"><a href="./donate.html" class="menu_link">Донат</a></li>
+						<li class="menu_item"><a href="" class="menu_link">FORBES</a></li>
+					</ul>
+				</nav>
+				<div class="header__btn">
+					<a href="./index.html" class="btn btn-gray">НАЧАТЬ ИГРАТЬ</a>
+				</div>
+				<div class="burger">
+					<span></span>
+				</div>
+			</div>
+		</header>
+        <main>
+            <section class="donate-form">
+                <div class="donate-form__container">
+                    <div class="donate-form__title title">ПОПОЛНЕНИЕ БАЛАНСА</div>
+                    <form class="form-donate" caction="">
+                        <div class="inputbox">
+                            <input  class="input-text" required type="text">
+                            <label for="">Введите Никнейм</label>
+                        </div>
+                        <div class="inputbox">
+                            <input class="input-text" required type="text">
+                            <label for="">Сумма Пополнения</label>
+                        </div>
+                        <div class="inputbox">
+                            <input class="input-text" required type="text">
+                            <label class="big" for="">Введите Почтовый Адрес</label>
+                        </div>
+                        <div class="checkbox">
+                            <input required type="checkbox">
+                            <label for="">Принимаю пользовательское соглашение</label>
+                        </div>
+                    </form>
+                    <div class="form-btn"><a class="btn" href="">Продолжить</a></div>
+                </div>
+            </section>
+			<section class="donate-perks-block">
+				<div class="donate-perks__container">
+					<a href="#popup"  class="perks-block red-block popup-open">
+						<div class="perks-textblock">
+							<div class="perks-title">VIP Статус</div>
+							<div class="perks-suptitle">Дополнительные возможности и увжаение</div>
+						</div>
+						<div class="perks-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+					</a>
+					<a href="#popup_2" class="perks-block popup-open">	
+						<div class="perks-textblock">
+							<div class="perks-title">Другое</div>
+							<div class="perks-suptitle">Узнать про другие функции пополнения счета</div>
+						</div>
+						<div class="perks-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+					</a>
+				</div>
+			</section>
+        </main>
+        <footer>
+			<div class="footer__container">
+				<div class="footer_row">
+					<div class="footer_title">EKATERINBURG <span>RP</span></div>
+					<div class="footer_title">Поддержка</div>
+					<div class="footer_title">Форум</div>
+					<div class="footer_title">ekaterinburgrp@gmail.com</div>
+				</div>
+			</div>
+		</footer>
+    </div>
+	<div id="popup" class="popup">
+		<div class="popup__body">
+			<div class="popup__content">
+					<a href="" class="popup__close close-popup">╳</a>
+					<div class="popup__title title">VIP Статус</div>
+					<div class="popup__text">Ознакомьтесь с преимуществами VIP статуса на нашем сервере, познайте новые ощущения, и окунитесь в мир новых возможностей!</div>
+					<ul class="popup__list">
+						<li class="popup__list-text">пон</li>
+						<li class="popup__list-text">пон</li>
+						<li class="popup__list-text">пон</li>
+						<li class="popup__list-text">пон</li>
+						<li class="popup__list-text">пон</li>
+					</ul>
+			</div>
+		</div>
+	</div>
+	<div id="popup_2" class="popup">
+		<div class="popup__body">
+			<div class="popup__content">
+					<a href="" class="popup__close close-popup">╳</a>
+					<div class="popup__title title">Остальные Преимущества</div>
+					<div class="popup__text">Ознакомьтесь с преимуществами VIP статуса на нашем сервере, познайте новые ощущения, и окунитесь в мир новых возможностей!</div>
+					<ul class="popup__list">
+						<li class="popup__list-text">пон</li>
+						<li class="popup__list-text">пон</li>
+						<li class="popup__list-text">пон</li>
+						<li class="popup__list-text">пон</li>
+						<li class="popup__list-text">пон</li>
+					</ul>
+			</div>
+		</div>
+	</div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
